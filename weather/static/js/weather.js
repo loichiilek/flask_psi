@@ -29,9 +29,26 @@ $(function () {
   });
   $('[data-toggle="popover"]').popover()
 
-  $('.map-annotation').click(function() {
-
-    
+  $('.magic-psi button').on('click', function() {
+    const region = window.prompt('Choose a region to reset')
+    $.ajax({
+      type: "POST",
+      url: "/magic_psi",
+      data: {
+        region
+      },
+      headers: {
+        "Content-Type": "application/json"
+      },
+      success: function(result) {
+        console.log(result)
+        $(`#map-${result.region}-button`).attr('data-content', "PSI: " + result['region_psi'])
+      },
+      error: function(result) {
+        console.log(result)
+      }
+    });
+      
 
 
   })
