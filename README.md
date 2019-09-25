@@ -1,4 +1,4 @@
-## REP Git Workshop
+## REP Git Workshop Part 2. (Singapore PSI Level)
 
 **1. Clone this repository to your local file directory.**
 
