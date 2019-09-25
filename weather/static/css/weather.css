@@ -1,0 +1,46 @@
+#singapore-map {
+}
+
+#main-container {
+  position: relative;
+  text-align: center;
+}
+
+#h3-title {
+  padding: 50px;
+}
+
+#image-container {
+  width: 80%;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.map-annotation {
+  position: absolute;
+}
+
+#map-central {
+  top: 37%;
+  left: 39.5%;
+}
+
+#map-west {
+  top: 37%;
+  left: 10%;
+}
+
+#map-east {
+  top: 37%;
+  right: 25%;
+}
+
+#map-north {
+  top: 10%;
+  left: 40%;
+}
+
+#map-south {
+  bottom: 35%;
+  left: 40%;
+}
