@@ -21,7 +21,7 @@
 - api.py (you have to understand how array and dict work in python)
 
 
-**7. Create an API endpoint locally, to serve the same content, but for PM2.5**
+**7. Create an API endpoint locally, to serve the same content, but for PM2.5** (Requires some knowledge of Javascript)
 - Add a new route in routes.py
-- Make call to the same API
+- Make another call to the same API
 - Edit weather.js in static/js folder to display pm2.5 instead of psi
