@@ -1,7 +1,7 @@
 $(function () {
   $.ajax({
     type: "GET",
-    url: "/api_call",
+    url: "/get_psi",
     headers: {
       "Content-Type": "application/json"
     },

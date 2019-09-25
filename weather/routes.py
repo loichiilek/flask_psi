@@ -6,7 +6,7 @@ from .api import *
 def weather():
   return render_template("weather.html")
 
-@app.route("/api_call")
-def api_call():
+@app.route("/get_psi")
+def get_psi():
   psi = make_call()
   return jsonify({'psi_twenty_four_hourly': psi})
